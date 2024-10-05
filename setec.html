@@ -15,7 +15,7 @@
     </header>
     <main>
         <section>
-            <input type="text" placeholder="Digite o nome de uma linguagem ou uma palavra-chave" id="campo-pesquisa">
+            <input type="text" placeholder="Digite o nome de uma linguagem ou uma palavra-chave" id="campo-pesquisa" onkeypress="verificarEnter(event)">
             <button onclick="pesquisar()">Pesquisar</button>
         </section>
         <section class="resultados-pesquisa" id="resultados-pesquisa">  

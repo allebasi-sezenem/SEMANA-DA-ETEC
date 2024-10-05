@@ -10,6 +10,12 @@ function pesquisar() {
         return 
     }
 
+function verificarEnter(event) {
+        if (event.key === 'Enter') {
+            pesquisar();
+        }
+    }
+
     campoPesquisa = campoPesquisa.toLowerCase()
 
     // Inicializa uma string vazia para armazenar os resultados

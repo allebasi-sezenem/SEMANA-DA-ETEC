@@ -10,11 +10,7 @@ function pesquisar() {
         return 
     }
 
-function verificarEnter(event) {
-        if (event.key === 'Enter') {
-            pesquisar();
-        }
-    }
+
 
     campoPesquisa = campoPesquisa.toLowerCase()
 
@@ -42,6 +38,7 @@ function verificarEnter(event) {
             </div>
         `;
         }
+        
     }
 
     if (!resultados) {
@@ -51,3 +48,7 @@ function verificarEnter(event) {
     // Atribui os resultados gerados à seção HTML
     section.innerHTML = resultados;
 }
+function verificarEnter(event) {
+    if (event.key === "Enter") {
+        pesquisar();
+    }}

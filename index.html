@@ -9,54 +9,67 @@
   <link rel="shortcut icon" href="cpz.jpg" type="image/x-icon">
     <title>Página Principal</title>
 </head>
-<body>
+<header>
+  <div class="content">
     <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Bem-vindo à minha página!</h1>
     <label>Nossa apresentação Canva sobre uma de nossas máterias do curso "INW" ou "Interfaces Web"</label><br>
+</header>
+<body>
     <div style="display: flex; justify-content: center; margin-top: 1.6em; margin-bottom: 0.9em;">
-      <div style="position: relative; width: 700px; height: 0; padding-top: 395px;
-          padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); overflow: hidden;
-          border-radius: 8px; will-change: transform;">
-        <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
-          src="https://www.canva.com/design/DAGQQq3LgFQ/6njCncdm_uvq4t73PUEZmw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-        </iframe>
-      </div>
+        <div style="position: relative; width: 700px; height: 0; padding-top: 395px;
+            padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); overflow: hidden;
+            border-radius: 8px; will-change: transform;">
+            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
+                src="https://www.canva.com/design/DAGQQq3LgFQ/6njCncdm_uvq4t73PUEZmw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+            </iframe>
+        </div>
     </div>
-  <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGQQq3LgFQ&#x2F;6njCncdm_uvq4t73PUEZmw&#x2F;view?utm_content=DAGQQq3LgFQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">APRESENTAÇÃO INW</a>
-  
-    <p>QUAL DESSAS PÁGINAS FOI FEITO POR IA?</p>
-        <li><a href="setec.html" target="_blank">Página 1</a><br></li>
-        <li><a href="site_ia.html" target="_blank">Página 2</a><br><br></li>
-        <label>Nossa apresentação Canva sobre uma de nossas máterias do curso "INW" ou "Interfaces Web"</label><br><br>
-    </body>
-    <!-- <footer><div id="ab">
-      <p>2024 - Informática para Internet. Todos os direitos reservados</p>
-      <p>Entre em contato pelo email: alunos_1Y@etec.sp.gov.br</p></div>
-    </footer> -->
+    <a href="https://www.canva.com/design/DAGQQq3LgFQ/6njCncdm_uvq4t73PUEZmw/view?utm_content=DAGQQq3LgFQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">APRESENTAÇÃO INW</a><br><br><br>
+    
+    <p>QUAL DESSAS PÁGINAS VOCÊ ACHA QUE FOI FEITA POR IA?</p>
+    <div style="display: flex; justify-content: center; margin-top: 1.6em; margin-bottom: 0.9em;">
+      <a href="setec.html" target="_blank"><img src="imagens/site1.png" width="500px" style="border-radius: 20px;"><label for="site1"><br>Página 1</label></a> &nbsp; &nbsp;
+
+    <a href="site_ia.html" target="_blank"><img src="imagens/site2.png" width="500px"style="border-radius: 20px;"><label for="site1"><br>Página 2</label></a>
+</div> 
+</div>
+    <footer>
+      <div id="ab">
+      <p>Semana Da ETEC | 1ºY | ETEC Lauro Gomes </p>
+      <p>Monalisa, Enzo Kayo, Isabella, Letícia, Arthur Daniel, Jaqueline, Lucas Rios, Ariel, </p>
+      <p>17,18 e 19 de Outubro de 2024, São Bernardo do Campo</p>
+      </div>
+    </footer> 
     
   <style>
       body {
-      font-family: Arial, sans-serif;
-      font-size: 35px;
-      justify-content: center;
-      text-align: center;
-      background-color: rgb(75, 148, 148);
-      color:white;
-      }
-      a{ 
-          color:white;
-      }
-      footer {
-      background-color: #F5F7F8; /* Cor de fundo do rodapé */
-      color: #45474B; /* Cor do texto */
-      text-align: center; /* Alinha o texto ao centro */
-      padding: 0; /* Espaçamento interno */
-      width: 100%; /* Largura total da página */
-      position: absolute; /* Posiciona o rodapé */
-      bottom: 0; /* Alinha ao fundo da página */
-      font-size: 1rem; /* Tamanho da fonte */
-    }
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Garante que o corpo tenha a altura mínima da tela */
+            font-family: Arial, sans-serif;
+            font-size: 35px;
+            text-align: center;
+            background-color: rgb(75, 148, 148);
+            color: white;
+            margin: 0; /* Remove margens padrão */
+        }
+        a { 
+            color: white;
+        }
+        .content {
+            flex: 1; /* Faz o conteúdo ocupar todo o espaço disponível */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centraliza o conteúdo verticalmente */
+        }
+        footer {
+            background-color: #F5F7F8; /* Cor de fundo do rodapé */
+            color: #45474B; /* Cor do texto */
+            text-align: center; /* Alinha o texto ao centro */
+            padding: 1em; /* Espaçamento interno */
+            font-size: 1rem; /* Tamanho da fonte */
+        }
 
-      
   </style>
 </body>
 </html>

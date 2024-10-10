@@ -9,31 +9,31 @@
   <link rel="shortcut icon" href="cpz.jpg" type="image/x-icon">
     <title>Página Principal</title>
 </head>
-<header>
-  <div class="content">
-    <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Bem-vindo à minha página!</h1>
-    <label>Nossa apresentação Canva sobre uma de nossas máterias do curso "INW" ou "Interfaces Web"</label><br>
+<header><!-- Cabeçalho da página -->
+  <div class="content"><!-- Div para conteúdo centralizado -->
+    <h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Bem-vindo à minha página!</h1><!-- Título da página com sombra de texto -->
+    <label>Nossa apresentação Canva sobre uma de nossas máterias do curso "INW" ou "Interfaces Web"</label><br> <!-- Descrição da apresentação -->
 </header>
-<body>
-    <div style="display: flex; justify-content: center; margin-top: 1.6em; margin-bottom: 0.9em;">
+<body><!-- Corpo da página -->
+    <div style="display: flex; justify-content: center; margin-top: 1.6em; margin-bottom: 0.9em;">  <!-- Container para centralizar a apresentação -->
         <div style="position: relative; width: 700px; height: 0; padding-top: 395px;
             padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); overflow: hidden;
-            border-radius: 8px; will-change: transform;">
+            border-radius: 8px; will-change: transform;"><!-- Estilos para o iframe da apresentação -->
             <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0; margin: 0;"
                 src="https://www.canva.com/design/DAGQQq3LgFQ/6njCncdm_uvq4t73PUEZmw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-            </iframe>
+            </iframe> <!-- Iframe que incorpora a apresentação do Canva -->
         </div>
     </div>
-    <a href="https://www.canva.com/design/DAGQQq3LgFQ/6njCncdm_uvq4t73PUEZmw/view?utm_content=DAGQQq3LgFQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">APRESENTAÇÃO INW</a><br><br><br>
+    <a href="https://www.canva.com/design/DAGQQq3LgFQ/6njCncdm_uvq4t73PUEZmw/view?utm_content=DAGQQq3LgFQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">APRESENTAÇÃO INW</a><br><br><br> <!-- Link para a apresentação em uma nova aba -->
     
-    <p>QUAL DESSAS PÁGINAS VOCÊ ACHA QUE FOI FEITA POR IA?</p>
-    <div style="display: flex; justify-content: center; margin-top: 1.6em; margin-bottom: 0.9em;">
-      <a href="site1.html" target="_blank"><img src="site1.png" width="500px" style="border-radius: 20px;"><label for="site1.png"><br>Página 1</label></a> &nbsp; &nbsp;
+    <p>QUAL DESSAS PÁGINAS VOCÊ ACHA QUE FOI FEITA POR IA?</p><!-- Pergunta interativa para os usuários -->
+    <div style="display: flex; justify-content: center; margin-top: 1.6em; margin-bottom: 0.9em;"><!-- Container para as imagens das páginas -->
+      <a href="site1.html" target="_blank"><img src="site1.png" width="500px" style="border-radius: 20px;"><label for="site1.png"><br>Página 1</label></a> &nbsp; &nbsp;<!-- Link para a Página 1 com imagem -->
 
-    <a href="site2.html" target="_blank"><img src="site2.png" width="500px"style="border-radius: 20px;"><label for="site1.png"><br>Página 2</label></a>
+      <a href="site2.html" target="_blank"><img src="site2.png" width="500px"style="border-radius: 20px;"><label for="site1.png"><br>Página 2</label></a><!-- Link para a Página 2 com imagem -->
 </div> 
 </div>
-    <footer>
+    <footer> <!-- Rodapé da página -->
       <div id="ab">
       <p>Semana Da ETEC | 1ºY | ETEC Lauro Gomes </p>
       <p>Monalisa, Enzo Kayo, Isabella, Letícia, Arthur Daniel, Jaqueline, Lucas Rios, Ariel, </p>
@@ -46,21 +46,22 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh; /* Garante que o corpo tenha a altura mínima da tela */
-            font-family: Arial, sans-serif;
-            font-size: 35px;
-            text-align: center;
-            background-color: rgb(75, 148, 148);
-            color: white;
-            margin: 0; /* Remove margens padrão */
+            font-family: Arial, sans-serif; /* Fonte padrão */
+            font-size: 35px; /* Tamanho da fonte */
+            text-align: center; /* Alinha texto ao centro */
+            background-color: rgb(75, 148, 148); /* Cor de fundo */
+            color: white; /* Cor do texto */
+            margin: 0; /* Remove margens padrão */
         }
         a { 
-            color: white;
+            color: white; /* Cor dos links */
         }
         .content {
             flex: 1; /* Faz o conteúdo ocupar todo o espaço disponível */
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Centraliza o conteúdo verticalmente */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centraliza o conteúdo verticalmente */
+          }
         }
         footer {
             background-color: #F5F7F8; /* Cor de fundo do rodapé */

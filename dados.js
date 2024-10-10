@@ -26,13 +26,13 @@ let dados = [
     {
         titulo: "HTML Semântico",
         descricao: "O HTML Semântico utiliza elementos HTML com significados específicos para descrever o conteúdo de uma página. Em vez de usar divs genéricas, elementos como header, nav, section, article, aside, footer e outros são utilizados para dar mais contexto aos mecanismos de busca e assistivos, melhorando a acessibilidade e o SEO.",
-        link: "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Elemento",
+        link: "https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics",
         tags: "html, semântica, acessibilidade, seo, Acessibilidade, SEO, microdados, schema.org, ARIA"
     },
     {
         titulo: "Formulários HTML",
         descricao: "Formulários HTML são utilizados para coletar dados do usuário. Eles são construídos com elementos como input (texto, senha, email, etc.), textarea (áreas de texto), select (listas) e button (botões). Ao enviar um formulário, os dados podem ser processados em um servidor.",
-        link: "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/form",
+        link: "https://developer.mozilla.org/pt-BR/docs/Learn/Forms/How_to_structure_a_web_form",
         tags: "html, formulários, input, textarea, submit"
     },
     {
@@ -44,23 +44,17 @@ let dados = [
     {
         titulo: "Tags HTML",
         descricao: "Tags HTML são palavras-chave envoltas em colchetes angulares < e > que definem os elementos de uma página web. Cada tag possui um nome e atributos que podem ser utilizados para modificar seu comportamento. As tags delimitam o início e o fim de um elemento.",
-        link: "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Elemento",
+        link: "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element",
         tags: "html, tags, elementos"
     },
     {
         titulo: "Inteligência Artificial e Educação",
         descricao: "A Inteligência Artificial (IA) está transformando a educação, oferecendo ferramentas personalizadas para aprendizado, como tutores virtuais, análise de dados para identificar dificuldades dos alunos e criação de conteúdo adaptativo. Na escola, a IA pode auxiliar na criação de planos de estudo personalizados, na avaliação do desempenho dos alunos e na identificação de áreas que precisam de mais atenção.",
-        link: "https://www.educamaisbrasil.com.br/enem/redacao/inteligencia-artificial-na-educacao",
+        link: "https://ebaconline.com.br/blog/inteligencia-artificial-na-educacao",
         tags: "inteligencia artificial, educação, aprendizado, tecnologia"
     },
     {
         titulo: "Centro Paula Souza e Etec",
-        descricao: "O Centro Paula Souza é uma autarquia do governo do estado de São Paulo responsável pela educação profissional e tecnológica. As Etecs (Escolas Técnicas Estaduais) são unidades do Centro Paula Souza que oferecem cursos técnicos em diversas áreas, preparando os estudantes para o mercado de trabalho.",
-        link: "https://www.cps.sp.gov.br/",
-        tags: "educação profissional, etec, centro paula souza, são paulo, eti, ete"
-    },
-    {
-        titulo: "Jogo",
         descricao: "O Centro Paula Souza é uma autarquia do governo do estado de São Paulo responsável pela educação profissional e tecnológica. As Etecs (Escolas Técnicas Estaduais) são unidades do Centro Paula Souza que oferecem cursos técnicos em diversas áreas, preparando os estudantes para o mercado de trabalho.",
         link: "https://www.cps.sp.gov.br/",
         tags: "educação profissional, etec, centro paula souza, são paulo, eti, ete"

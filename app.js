@@ -6,7 +6,7 @@ function pesquisar() {
 
     // se campoPesquisa for uma string sem nada
     if (!campoPesquisa) {
-        section.innerHTML = "<p>Nada foi encontrado. Você precisa digitar o nome de um atleta ou esporte</p>"
+        section.innerHTML = "<p style='color: #F5F7F8;'>Nada foi encontrado. Você precisa digitar o nome de um atleta ou esporte</p>"
         return 
     }
 
@@ -42,7 +42,7 @@ function pesquisar() {
     }
 
     if (!resultados) {
-        resultados = "<p>Nada foi encontrado</p>"
+        resultados = "<p style='color: #F5F7F8;'>Nada foi encontrado</p>"
     }
 
     // Atribui os resultados gerados à seção HTML

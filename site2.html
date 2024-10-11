@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Infonet - HTML</title>
+    <title>Site Infonet - HTML Semântico</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="cpz.jpg" type="image/x-icon">
 </head>
@@ -21,7 +21,16 @@
                     <a class="nav-link" href="#">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre o HTML</a>
+                    <a class="nav-link" href="#html">HTML</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#css">CSS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#js">JS</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bt">Bootstrap</a>
+                </li>       
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#noticias">Tutoriais</a>
@@ -37,32 +46,36 @@
     <header class="hero bg-secondary p-3 text-white text-center">
         <div class="container">
             <h1 class="display-4">Bem-vindo ao Site Infonet</h1>
-            <p class="lead">Descubra tudo sobre HTML e aprenda a criar páginas web incríveis!</p>
+            <p class="lead">Descubra tudo sobre CSS e aprenda a estilizar suas páginas web!</p>
         </div>
     </header>
-    <section id="sobre" class="py-5">
+
+    <main>
         <div class="container">
+            <section id="html" class="bg-light py-5"></section>
             <h2 class="text-center">Sobre o HTML</h2>
-            <p>HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar páginas da web. Ela estrutura o conteúdo da página, permitindo que navegadores interpretem e exibam textos, imagens, vídeos e outros elementos. O HTML utiliza tags para definir os elementos de uma página. As tags são palavras-chave envoltas em colchetes angulares (< e >). Por exemplo, a tag &lt;p&gt; indica o início de um parágrafo, e a tag &lt;/p&gt; indica o fim.</p>
+            <p>HTML (HyperText Markup Language) é a linguagem de marcação padrão para criar páginas da web. Ela estrutura o conteúdo da página, permitindo que navegadores interpretem e exibam textos, imagens, vídeos e outros elementos. O HTML utiliza tags para definir os elementos de uma página. As tags são palavras-chave envoltas em colchetes angulares (&lt; e &gt;). Por exemplo, a tag &lt;p&gt; indica o início de um parágrafo, e a tag &lt;/p&gt; indica o fim.</p>
         </div>
     </section>
-    <section id="noticias" class="bg-light py-5">
+    
+    
         <div class="container">
             <h2 class="text-center">Últimos Tutoriais</h2>
             <div class="row">
                 <!-- Tutorial 1 -->
-                <div class="col-md-4">
+                <article class="col-md-4">
                     <div class="card">
+                    <section id="html" class="py-5">
                         <img src="https://jera.com.br/blog/wp-content/uploads/2020/11/Introdu%C3%A7%C3%A3o_HTML_CSS_10.png" class="card-img-top" alt="Tutorial 1">
-                        <div class="card-body">
+                        <div class="card-body" id="html">
                             <h5 class="card-title">Introdução ao HTML</h5>
                             <p class="card-text">Aprenda os fundamentos do HTML e comece a construir suas primeiras páginas web.</p>
                             <a href="https://www.w3schools.com/html/html_intro.asp" class="btn btn-link" target="_blank">Leia mais</a>
                         </div>
                     </div>
-                </div>
+                </article>
                 <!-- Tutorial 2 -->
-                <div class="col-md-4">
+                <article class="col-md-4">
                     <div class="card">
                         <img src="https://www.alura.com.br/artigos/assets/o-que-e-html-suas-tags-parte-1-estrutura-basica/imagem2.jpg" class="card-img-top" alt="Tutorial 2">
                         <div class="card-body">
@@ -71,9 +84,9 @@
                             <a href="https://www.w3schools.com/html/html5_semantics.asp" class="btn btn-link" target="_blank">Leia mais</a>
                         </div>
                     </div>
-                </div>
+                </article>
                 <!-- Tutorial 3 -->
-                <div class="col-md-4">
+                <article class="col-md-4">
                     <div class="card">
                         <img src="https://www.htmlecsspro.com/uploads/images/2018/03/formulario-de-login-e-cadastro-com-html5-e-css3-1522145690.png" class="card-img-top" alt="Tutorial 3">
                         <div class="card-body">
@@ -82,33 +95,177 @@
                             <a href="https://www.w3schools.com/html/html_forms.asp" class="btn btn-link" target="_blank">Leia mais</a>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contato" class="py-5">
+        <section id="css" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Sobre o CSS</h2>
+                <p>CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a apresentação de documentos HTML. Com o CSS, você pode controlar o layout, as cores, as fontes e muito mais, permitindo que você crie designs atraentes e responsivos para suas páginas web.</p>
+            </div>
+        </section>
+
+        <section id="noticias" class="bg-light py-5">
+            <div class="container">
+                <h2 class="text-center">Últimos Tutoriais</h2>
+                <div class="row">
+                    <!-- Tutorial 1 -->
+                    <article class="col-md-4">
+                        <div class="card">
+                            <img src="https://www.w3schools.com/css/img_fjords.jpg" class="card-img-top" alt="Tutorial 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Introdução ao CSS</h5>
+                                <p class="card-text">Aprenda os fundamentos do CSS e comece a estilizar suas páginas web.</p>
+                                <a href="https://www.w3schools.com/css/css_intro.asp" class="btn btn-link" target="_blank">Leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Tutorial 2 -->
+                    <article class="col-md-4">
+                        <div class="card">
+                            <img src="https://www.w3schools.com/css/img_mountains.jpg" class="card-img-top" alt="Tutorial 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Seletores CSS</h5>
+                                <p class="card-text">Descubra como usar seletores para aplicar estilos a elementos específicos.</p>
+                                <a href="https://www.w3schools.com/css/css_selectors.asp" class="btn btn-link" target="_blank">Leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Tutorial 3 -->
+                    <article class="col-md-4">
+                        <div class="card">
+                            <img src="https://www.w3schools.com/css/img_lights.jpg" class="card-img-top" alt="Tutorial 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Flexbox no CSS</h5>
+                                <p class="card-text">Aprenda a usar Flexbox para criar layouts flexíveis e responsivos.</p>
+                                <a href="https://www.w3schools.com/css/css3_flexbox.asp" class="btn btn-link" target="_blank">Leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
         <div class="container">
-            <h2 class="text-center">Contato</h2>
-            <p class="text-center">Entre em contato conosco para mais informações sobre HTML.</p>
-            <form>
-                <div class="form-group">
-                    <label for="nome">Nome</label>
-                    <input type="text" class="form-control" id="nome" placeholder="Seu nome">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Seu email">
-                </div>
-                <div class="form-group">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
+        <section id="js" class="bg-light py-5"></section>
+            <h2 class="text-center">Sobre o JavaScript</h2>
+            <p>JavaScript é uma linguagem de programação amplamente utilizada para criar interatividade e dinamismo em páginas web. Ele permite que desenvolvedores implementem funcionalidades complexas, como atualizações de conteúdo em tempo real, animações e interações com o usuário. O JavaScript é uma linguagem orientada a objetos, baseada em protótipos e é frequentemente executado no navegador do cliente, permitindo uma experiência mais rica sem a necessidade de recarregar a página.</p>
         </div>
-    </section>
+        </section>
+        
+        
+            <div class="container">
+                <h2 class="text-center">Últimos Tutoriais</h2>
+                <div class="row">
+                    <!-- Tutorial 1 -->
+                    <article class="col-md-4">
+                        <div class="card">
+                            <img src="https://blog.geekhunter.com.br/wp-content/uploads/2021/08/ide-javascript.png" class="card-img-top" alt="Tutorial 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Introdução ao JavaScript</h5>
+                                <p class="card-text">Aprenda os fundamentos do JavaScript e como ele pode transformar suas páginas web.</p>
+                                <a href="https://www.w3schools.com/js/js_intro.asp" class="btn btn-link" target="_blank">Leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Tutorial 2 -->
+                    <article class="col-md-4">
+                        <div class="card">
+                            <img src="https://kbase.com.br/novo/wp-content/uploads/2019/06/linguagem-JavaScript.jpg" class="card-img-top" alt="Tutorial 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Manipulação do DOM</h5>
+                                <p class="card-text">Descubra como manipular o DOM com JavaScript para criar interatividade nas suas páginas.</p>
+                                <a href="https://www.w3schools.com/js/js_htmldom.asp" class="btn btn-link" target="_blank">Leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                    <!-- Tutorial 3 -->
+                    <article class="col-md-4">
+                        <div class="card">
+                            <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28Dj6ji-7MVG1k_MfgzyoUdqrlbz4LH9NQQ&s" class="card-img-top" alt="Tutorial 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Eventos em JavaScript</h5>
+                                <p class="card-text">Aprenda a trabalhar com eventos em JavaScript para melhorar a interação do usuário.</p>
+                                <a href="https://blog.geekhunter.com.br/wp-content/uploads/2021/08/ide-javascript.png" class="btn btn-link" target="_blank">Leia mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+    <div class="container">
+    <section id="bt" class="bg-light py-5"></section>
+    <h2 class="text-center">Sobre o Bootstrap</h2>
+    <p>Bootstrap é um framework front-end popular para desenvolver sites responsivos e móveis. Ele oferece uma coleção de ferramentas e componentes CSS e JavaScript, permitindo que desenvolvedores criem layouts flexíveis e estilizados de forma rápida e fácil. Bootstrap facilita a implementação de elementos como botões, formulários, tabelas e navegação, com um design moderno e compatível com todos os dispositivos.</p>
+</div>
+</section>
+
+
+    <div class="container">
+        <h2 class="text-center">Últimos Tutoriais</h2>
+        <div class="row">
+            <!-- Tutorial 1 -->
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="https://arquivo.devmedia.com.br/cursos/imagem/curso_407.jpg" class="card-img-top" alt="Tutorial 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Introdução ao Bootstrap</h5>
+                        <p class="card-text">Aprenda os fundamentos do Bootstrap e como ele pode agilizar seu desenvolvimento web.</p>
+                        <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="btn btn-link" target="_blank">Leia mais</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Tutorial 2 -->
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="https://datascientest.com/en/files/2024/03/image_bootstrap-1.png" class="card-img-top" alt="Tutorial 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Grid System do Bootstrap</h5>
+                        <p class="card-text">Descubra como usar o sistema de grid do Bootstrap para criar layouts responsivos.</p>
+                        <a href="https://getbootstrap.com/docs/5.0/layout/grid/" class="btn btn-link" target="_blank">Leia mais</a>
+                    </div>
+                </div>
+            </article>
+            <!-- Tutorial 3 -->
+            <article class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5LjpIMjgtBmBxuRE8UMJrM6cKxoS84Yw-dGOq1CzJP5mY3A1glyappuaSVdyLLNz81Pw&usqp=CAU" class="card-img-top" alt="Tutorial 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Componentes do Bootstrap</h5>
+                        <p class="card-text">Aprenda a usar os diversos componentes do Bootstrap para enriquecer suas páginas web.</p>
+                        <a href="https://getbootstrap.com/docs/5.0/components/alerts/" class="btn btn-link" target="_blank">Leia mais</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+        </section>
+        
+
+        <!-- Contact Section -->
+        <section id="contato" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Contato</h2>
+                <p class="text-center">Entre em contato conosco para mais informações sobre CSS.</p>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
@@ -120,6 +277,12 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Evita o envio do formulário
+            alert('Formulário enviado com sucesso!');
+        });
+    </script>
 </body>
 
 </html>

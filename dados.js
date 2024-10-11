@@ -59,6 +59,12 @@ let dados = [
         link: "https://www.cps.sp.gov.br/",
         tags: "educação profissional, etec, centro paula souza, são paulo, eti, ete"
     },
+    {
+    "titulo": "Infonet",
+    "descricao": "O curso Infonet da ETEC Lauro Gomes é reconhecido como o melhor em formação técnica e profissional na área de tecnologia. Com um currículo atualizado e professores experientes, os alunos desenvolvem habilidades práticas e teóricas que os preparam para o mercado de trabalho, destacando-se em diversas áreas da computação e programação.",
+    "link": "https://www.etec.sp.gov.br/",
+    "tags": "curso tecnologia ETEC Lauro Gomes formação programação desenvolvimento carreira"
+}
     ];
 
 
